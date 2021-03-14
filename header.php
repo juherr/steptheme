@@ -61,6 +61,7 @@ if ( is_singular() && get_option( 'thread_comments' ) ) {
 </head>
 
 <body <?php body_class(); ?>>
+<?php wp_body_open(); ?>
 <div id="wrapper" class="hfeed">
 
 	<?php get_sidebar(); ?>
