@@ -12,16 +12,6 @@ Tags: black, blue, white, two-columns, fixed-width, custom-header, custom-backgr
 
 /* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
 -------------------------------------------------------------- */
-@font-face {
-    font-family: 'RabioheadRegular';
-    src: url('fonts/rabiohead_remix-webfont.eot');
-    src: url('fonts/rabiohead_remix-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/rabiohead_remix-webfont.woff') format('woff'),
-         url('fonts/rabiohead_remix-webfont.ttf') format('truetype'),
-         url('fonts/rabiohead_remix-webfont.svg#RabioheadRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -78,7 +68,6 @@ DESCRIPTION: Two-column fixed layout with one sidebar right of content
 #droit{
 	float: left;
 	 width: 670px;
-	 background-color: #000;
 }
 
 #container {
@@ -183,6 +172,7 @@ div.menu,
 	width: 973px;
 }
 #wrapper {
+	background: #000;
 	margin-top: 30px;
 }
 
@@ -349,7 +339,7 @@ a:hover {
 
 #header {
 	min-height: 245px;
-	background: url("/wp-content/themes/steptheme/images/step_et_semelles.jpg") no-repeat scroll -310px 0 transparent;
+	background: url("http://overstep.free.fr/blog/images/step_et_semelles.jpg") no-repeat scroll -310px 0 transparent;
 	text-indent: -9999px;
 }
 #site-title {
@@ -584,7 +574,7 @@ div.menu li {
 }
 .entry-meta {
 	font-size: 12px;
-	background: url("/wp-content/themes/steptheme/images/daydate.jpg") no-repeat;
+	background: url(http://overstep.free.fr/blog/themes/overstep/images/daydate.jpg) no-repeat;
 	width: 486px;
 	height: 46px;
 	color: #003366;
@@ -986,7 +976,7 @@ h3#comments-title {
 .comment-author {
 }
 .comment-author cite {
-	color: #FF904D;
+	color: #000;
 	font-style: normal;
 	font-weight: bold;
 }
@@ -1240,7 +1230,7 @@ h3#reply-title {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    font-family: 'RabioheadRegular', arial, serif;
+    font-family: 'Reenie Beanie', arial, serif;
     font-size: 17px;
     letter-spacing: 3px;
 }
@@ -1403,13 +1393,4 @@ code {
 	.home .sticky {
 		border: none;
 	}
-}
-
-cite a {
-	text-decoration:none;
-	color: #FF904D;
-}
-
-.comment-body {
-	color: #49B0FF;
 }

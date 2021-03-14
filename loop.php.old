@@ -84,7 +84,7 @@
 								number_format_i18n( $total_images )
 							); ?></em></p>
 				<?php endif; ?>
-						<?php the_content(); ?>
+						<?php the_excerpt(); ?>
 <?php endif; ?>
 			</div><!-- .entry-content -->
 
@@ -106,9 +106,9 @@
 	<?php elseif ( ( function_exists( 'get_post_format' ) && 'aside' == get_post_format( $post->ID ) ) || in_category( _x( 'asides', 'asides category slug', 'twentyten' ) )  ) : ?>
 		<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-		<?php if ( is_archive() || is_search() ) : // Display contents for archives and search. ?>
+		<?php if ( is_archive() || is_search() ) : // Display excerpts for archives and search. ?>
 			<div class="entry-summary">
-				<?php the_content(); ?>
+				<?php the_excerpt(); ?>
 			</div><!-- .entry-summary -->
 		<?php else : ?>
 			<div class="entry-content">
@@ -134,9 +134,9 @@
 				<?php twentyten_posted_on(); ?>
 			</div><!-- .entry-meta -->
 
-	<?php if ( is_archive() || is_search() ) : // Only display contents for archives and search. ?>
+	<?php if ( is_archive() || is_search() ) : // Only display excerpts for archives and search. ?>
 			<div class="entry-summary">
-				<?php the_content(); ?>
+				<?php the_excerpt(); ?>
 			</div><!-- .entry-summary -->
 	<?php else : ?>
 			<div class="entry-content">

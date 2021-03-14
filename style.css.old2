@@ -12,16 +12,6 @@ Tags: black, blue, white, two-columns, fixed-width, custom-header, custom-backgr
 
 /* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
 -------------------------------------------------------------- */
-@font-face {
-    font-family: 'RabioheadRegular';
-    src: url('fonts/rabiohead_remix-webfont.eot');
-    src: url('fonts/rabiohead_remix-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/rabiohead_remix-webfont.woff') format('woff'),
-         url('fonts/rabiohead_remix-webfont.ttf') format('truetype'),
-         url('fonts/rabiohead_remix-webfont.svg#RabioheadRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -1240,7 +1230,7 @@ h3#reply-title {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    font-family: 'RabioheadRegular', arial, serif;
+    font-family: 'Reenie Beanie', arial, serif;
     font-size: 17px;
     letter-spacing: 3px;
 }

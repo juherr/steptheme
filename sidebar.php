@@ -9,6 +9,15 @@
 ?>
 
 		<div id="primary" class="widget-area" role="complementary">
+		
+			
+			<!--object type="application/x-shockwave-flash" data="/wp-content/themes/steptheme/images/menu.swf" width="303" height="2280"> 
+				<param name="movie" value="/wp-content/themes/steptheme/images/menu.swf" /> 
+				<param name="wmode" value="transparent" /> 
+				<p></p> 
+			</object--> 
+			
+		
 			<ul class="xoxo">
 
 <?php
