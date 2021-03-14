@@ -50,7 +50,7 @@ if ( ! dynamic_sidebar( 'primary-widget-area' ) ) :
 				</ul>
 			</li>
 
-		<?php endif; // end primary widget area ?>
+		<?php endif; // End primary widget area. ?>
 			</ul>
 		</div><!-- #primary .widget-area -->
 
